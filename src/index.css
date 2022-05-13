@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* this is the theme 1 (default) */
+  :root,
+  .theme-one {
+    --color-text-primary: 255, 255, 255;
+    --color-text-accent: 68, 75, 90;
+    --color-text-secondary: 68, 75, 90;
+
+    --color-bg-main: 58, 71, 100;
+    --color-bg-toggle: 35, 44, 67;
+    --color-bg-screen: 24, 32, 52;
+
+    --color-key-primary-background: 99, 112, 151;
+    --color-key-primary-shadow: 64, 78, 114;
+
+    --color-key-accent-background: 208, 63, 47;
+    --color-key-accent-shadow: 147, 38, 26;
+
+    --color-key-secondary-background: 234, 227, 220;
+    --color-key-secondary-shadow: 180, 165, 151;
+  }
+
+  .theme-two {
+    --color-text-primary: 53, 53, 44;
+    --color-text-accent: 255, 255, 255;
+    --color-text-secondary: 255, 255, 255;
+
+    --color-bg-main: 230, 230, 230;
+    --color-bg-toggle: 209, 204, 204;
+    --color-bg-screen: 237, 237, 237;
+
+    --color-key-primary-background: 55, 127, 134;
+    --color-key-primary-shadow: 27, 95, 101;
+
+    --color-key-accent-background: 202, 85, 2;
+    --color-key-accent-shadow: 137, 57, 1;
+
+    --color-key-secondary-background: 229, 228, 225;
+    --color-key-secondary-shadow: 166, 157, 145;
+  }
+
+  .theme-three {
+    --color-text-primary: 255, 229, 61;
+    --color-text-accent: 27, 36, 40;
+    --color-text-secondary: 255, 255, 255;
+
+    --color-bg-main: 22, 6, 40;
+    --color-bg-toggle: 29, 9, 52;
+    --color-bg-screen: 29, 9, 52;
+
+    --color-key-primary-background: 88, 7, 125;
+    --color-key-primary-shadow: 188, 21, 244;
+
+    --color-key-accent-background: 0, 224, 209;
+    --color-key-accent-shadow: 108, 249, 242;
+
+    --color-key-secondary-background: 52, 28, 79;
+    --color-key-secondary-shadow: 135, 28, 156;
+  }
+}
