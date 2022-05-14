@@ -25,7 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/theme1-mobile.png)
+![](./images/theme2-mobile.png)
+![](./images/theme3-mobile.png)
+![](./images/theme1-desktop.png)
+![](./images/theme2-desktop.png)
+![](./images/theme3-desktop.png)
 
 ### Links
 
