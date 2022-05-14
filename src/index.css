@@ -7,8 +7,9 @@
   :root,
   .theme-one {
     --color-text-primary: 255, 255, 255;
-    --color-text-accent: 68, 75, 90;
     --color-text-secondary: 68, 75, 90;
+    --color-text-accent: 255, 255, 255;
+    --color-text-accent-secondary: 255, 255, 255;
 
     --color-bg-main: 58, 71, 100;
     --color-bg-toggle: 35, 44, 67;
@@ -26,8 +27,9 @@
 
   .theme-two {
     --color-text-primary: 53, 53, 44;
+    --color-text-secondary: 53, 53, 44;
     --color-text-accent: 255, 255, 255;
-    --color-text-secondary: 255, 255, 255;
+    --color-text-accent-secondary: 255, 255, 255;
 
     --color-bg-main: 230, 230, 230;
     --color-bg-toggle: 209, 204, 204;
@@ -45,8 +47,9 @@
 
   .theme-three {
     --color-text-primary: 255, 229, 61;
-    --color-text-accent: 27, 36, 40;
-    --color-text-secondary: 255, 255, 255;
+    --color-text-secondary: 255, 229, 61;
+    --color-text-accent: 255, 255, 255;
+    --color-text-accent-secondary: 27, 36, 40;
 
     --color-bg-main: 22, 6, 40;
     --color-bg-toggle: 29, 9, 52;

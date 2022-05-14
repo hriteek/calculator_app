@@ -10,18 +10,23 @@ function returnTheme(value: number): string {
 const Colors = {
   primary: {
     bg: 'bg-key-primary-background',
-    text: 'text-primary',
+    text: 'text-accent',
     shadow: 'shadow-key-primary-shadow',
+  },
+  secondary: {
+    bg: 'bg-key-secondary-background',
+    text: 'text-secondary',
+    shadow: 'shadow-key-secondary-shadow',
   },
   accent: {
     bg: 'bg-key-accent-background',
     text: 'text-accent',
     shadow: 'shadow-key-accent-shadow',
   },
-  secondary: {
-    bg: 'bg-key-secondary-background',
-    text: 'text-secondary',
-    shadow: 'shadow-key-secondary-shadow',
+  'accent-secondary': {
+    bg: 'bg-key-accent-background',
+    text: 'text-accent-secondary',
+    shadow: 'shadow-key-accent-shadow',
   },
 };
 
@@ -43,7 +48,7 @@ const arrKeys = [
   { value: '/', span: 'col-span-1', color: Colors.secondary },
   { value: '*', span: 'col-span-1', color: Colors.secondary },
   { value: 'RESET', span: 'col-span-2', color: Colors.primary },
-  { value: '=', span: 'col-span-2', color: Colors.accent },
+  { value: '=', span: 'col-span-2', color: Colors['accent-secondary'] },
 ];
 
 const HomePage = () => {

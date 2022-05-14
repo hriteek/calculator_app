@@ -12,8 +12,9 @@ module.exports = {
   theme: {
     colors: {
       primary: withOpacity('--color-text-primary'),
-      accent: withOpacity('--color-text-accent'),
       secondary: withOpacity('--color-text-secondary'),
+      accent: withOpacity('--color-text-accent'),
+      'accent-secondary': withOpacity('--color-text-accent-secondary'),
 
       main: withOpacity('--color-bg-main'),
       toggle: withOpacity('--color-bg-toggle'),

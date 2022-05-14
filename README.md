@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [hriteek/calculator_app](https://github.com/hriteek/calculator_app)
+- Live Site URL: [https://hriteek.github.io/calculator_app/](https://hriteek.github.io/calculator_app/)
 
 ## My process
 
